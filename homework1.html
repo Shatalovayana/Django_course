@@ -138,6 +138,8 @@
 
 
 
+
+
     </style>
 
 </head>
@@ -321,13 +323,15 @@
         </main>
         <div class="row mt-5">
             <p class="d-inline-flex gap-1">
-                <a class="btn btn-primary form-control" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                <a class="btn btn-primary form-control" data-bs-toggle="collapse" href="#multiCollapseExample1"
+                   role="button"
                    aria-expanded="false" aria-controls="multiCollapseExample1">Как купить?</a>
                 <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse"
                         data-bs-target="#multiCollapseExample2"
                         aria-expanded="false" aria-controls="multiCollapseExample2">Как доставить?
                 </button>
-                <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3"
+                <button class="btn btn-primary form-control" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#multiCollapseExample3"
                         aria-expanded="false" aria-controls="multiCollapseExample3">Какая
                     гарантия?
                 </button>
@@ -362,6 +366,44 @@
                 </div>
             </div>
         </div>
+        <table class="table mt-3">
+            <thead>
+            <tr>
+                <th scope="col">№</th>
+                <th scope="col">Название товара</th>
+                <th scope="col">Цена за штуку</th>
+                <th scope="col">Количество</th>
+                <th scope="col">Итоговая сумма</th>
+                <th scope="col">Статус заказа</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Телефон</td>
+                <td>50000</td>
+                <td>1</td>
+                <td>50000</td>
+                <td>Обработан</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Холодильник</td>
+                <td>40000</td>
+                <td>2</td>
+                <td>80000</td>
+                <td>Новый</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Пылесос</td>
+                <td>20000</td>
+                <td>3</td>
+                <td>60000</td>
+                <td>Отменен</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 
 </main>
@@ -380,6 +422,8 @@
             new bootstrap.Tooltip(tooltipTriggerEl)
         })
     })()
+
+
 
 
 
